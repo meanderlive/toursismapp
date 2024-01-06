@@ -1,5 +1,6 @@
 asgiref==3.7.2
 Django==4.2.7
+django-admin-soft-dashboard @ git+https://github.com/app-generator/django-admin-soft-dashboard.git@0f927a28acae29eb13a762bf119a273267403b82
 Pillow==10.1.0
 sqlparse==0.4.4
 tzdata==2023.3

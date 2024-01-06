@@ -1,0 +1,25 @@
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+Subject: Password reset on 127.0.0.1:8000
+From: webmaster@localhost
+To: mandeep123@gmail.com
+Date: Sat, 06 Jan 2024 10:56:49 -0000
+Message-ID: <170453860981.11276.1699081427236158733@DESKTOP-TR6SU3G>
+
+
+You're receiving this email because you requested a password reset for your user account at 127.0.0.1:8000.
+
+Please go to the following page and choose a new password:
+
+http://127.0.0.1:8000/adminaccounts/password-reset-confirm/MQ/c0d1ip-987066c9c1b4c11546027f153029a016/
+
+Your username, in case you’ve forgotten: mandeep
+
+Thanks for using our site!
+
+The 127.0.0.1:8000 team
+
+
+
+-------------------------------------------------------------------------------

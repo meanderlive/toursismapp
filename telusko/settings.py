@@ -32,7 +32,9 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'admin_soft.apps.AdminSoftDashboardConfig',
     'travello.apps.TravelloConfig',
+   
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -127,3 +129,6 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'assets')
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
+EMAIL_BACKEND = "django.core.mail.backends.filebased.EmailBackend" # new
+EMAIL_FILE_PATH = os.path.join(BASE_DIR / "sent_emails")
